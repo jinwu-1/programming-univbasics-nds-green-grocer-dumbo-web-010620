@@ -27,6 +27,7 @@ def consolidate_cart(cart)
     end
     counter += 1
   end
+  new_cart
 end
 
 # return: [{:item => "AVOCADO". :price => 3.00, :clearance => true, :count => 3}]
